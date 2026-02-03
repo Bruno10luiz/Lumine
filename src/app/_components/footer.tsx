@@ -38,7 +38,7 @@ export function Footer() {
 
           <div>
             <h3 className="text-2xl font-semibold mb-2">Contatos</h3>
-            <p>Email: vetmaisudi@gmail.com</p>
+            
             <p>Fixo: (34) 3234-4952</p>
             <p>Celular: (34) 9 9631-0107</p>
             <p>Avenida Oscarina Cunha Chaves, 343 - Patrimônio - Uberlândia | MG</p>
