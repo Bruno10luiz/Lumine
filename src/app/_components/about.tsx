@@ -48,15 +48,15 @@ export function About() {
             </p>
             <ul className="space-y-4">
               <li className="flex items-center gap-2" data-aos="fade-right">
-                <Check className="text-[#33833a]" />
+                <Check className="text-[##003d4c]" />
                 Atendimento humanizado e personalizado.
               </li>
               <li className="flex items-center gap-2" data-aos="fade-left">
-                <Check className="text-[#33833a]" />
+                <Check className="text-[##003d4c]" />
                 Uso de tecnologia e inovação para diagnósticos e tratamentos.
               </li>
               <li className="flex items-center gap-2" data-aos="fade-right">
-                <Check className="text-[#33833a]" />
+                <Check className="text-[##003d4c]" />
                 Ambiente seguro e acolhedor para os pets e seus tutores.
               </li>
             </ul>

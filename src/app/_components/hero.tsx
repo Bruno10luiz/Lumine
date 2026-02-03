@@ -10,7 +10,7 @@ import Image from "next/image";
 
 export function Hero() {
   return (
-    <section className="bg-[#33833a] text-white relative overflow-hidden">
+    <section className="bg-[#003D4C] text-white relative overflow-hidden">
       <div>
         <Image
           src={catdogImg}
@@ -47,7 +47,7 @@ export function Hero() {
                 data-aos="fade-up"
                 href="tel:+5534996472326"
                 target="_blank"
-                className="bg-white text-green-500 border-black px-6 py-3 rounded-xl font-semibold flex items-center justify-center gap-3 shadow-md hover:bg-green-100 hover:scale-[1.02] transition-all duration-300"
+                className="bg-white text-blue-900 border-black px-6 py-3 rounded-xl font-semibold flex items-center justify-center gap-3 shadow-md hover:bg-blue-100 hover:scale-[1.02] transition-all duration-300"
               >
                 <Phone className="w-5 h-5" />
                 LIGAR AGORA
@@ -74,7 +74,7 @@ export function Hero() {
               </a>
             </div>
             <a href="https://maps.app.goo.gl/56ysj3ahtctaD3Df6" target="_blank">
-              <h4 className="mt-5">Rua Rafael Marino Neto, 725, Uberlândia, Minas Gerais</h4>
+              <h4 className="mt-5">Avenida Oscarina Cunha Chaves, 343 - Patrimônio, Uberlândia, Minas Gerais</h4>
             </a>
 
             <div className="mt-8">

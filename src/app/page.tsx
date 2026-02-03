@@ -7,7 +7,6 @@ import { Team } from "./_components/team";
 import { Address } from "./_components/address";
 import { Navigator } from "./_components/navigator";
 import { Contact } from "./_components/contact"
-import React from "react";
 
 export default function Home() {
   return (

@@ -82,9 +82,9 @@ export function Services() {
   }
 
   return (
-    <section id="services" className="bg-[#90d698] py-16">
+    <section id="services" className="bg-[#003D4C] py-16">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold mb-12" data-aos="fade-down">
+        <h2 className="text-4xl font-bold mb-12 text-white" data-aos="fade-down">
           Nossos Serviços
         </h2>
 
@@ -96,7 +96,7 @@ export function Services() {
                   key={index}
                   className="flex-[0_0_100%] min-w-0 lg:flex-[0_0_calc(100%/3)] px-3"
                 >
-                  <article className="bg-[#224d24] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col">
+                  <article className="bg-[#df7b3d] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col">
                     <div className="flex-1 flex items-start justify-between">
                       <div className="flex gap-3">
                         <span className="text-3xl">{item.icon}</span>
@@ -104,7 +104,7 @@ export function Services() {
                           <h3 className="font-bold text-xl my-1">
                             {item.title}
                           </h3>
-                          <p className="text-gray-400 text-sm select-none">
+                          <p className="text-white-400 text-sm select-none">
                             {item.description}
                           </p>
                         </div>
@@ -115,7 +115,7 @@ export function Services() {
                       <a
                         target="_blank"
                         href={`https://wa.me/5534996310107?text=Olá, vim pelo site e gostaria de mais informações sobre ${item.title}.`}
-                        className="flex items-center justify-center gap-2 hover:bg-green-500 px-4 py-1 rounded-md duration-300"
+                        className="flex items-center justify-center gap-2 hover:bg-orange-300 px-4 py-1 rounded-md duration-300"
                       >
                         <WhatsappLogo className="w-5 h-5" />
                         Entrar em contato

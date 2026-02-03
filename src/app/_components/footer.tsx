@@ -1,4 +1,4 @@
-import vetMaisLogo from "../../../public/Logo-VET-branco.webp";
+import lumineLogo from "../../../public/Lumine-logo2.webp";
 import Image from "next/image";
 import {
   InstagramLogo,
@@ -8,7 +8,7 @@ import {
 
 export function Footer() {
   return (
-    <section className="bg-[#33833a] py-8 text-white">
+    <section className="bg-[#2d5b66] py-8 text-white">
       <div className="container mx-auto px-4">
         <div className="border-b border-white/20 pb-8"></div>
 
@@ -16,12 +16,12 @@ export function Footer() {
           <div>
             <a href="/">
               <Image
-                src={vetMaisLogo}
+                src={lumineLogo}
                 alt="Logo Vet Mais"
-                className="h-28 w-28"
+                className="h-28 w-48 mb-4 align-middle"  
               />
             </a>
-            <p className="mb-4 font-bold">
+            <p className="mb-4 font-bold">  
               Cuidando do seu melhor amigo com amor e dedicação.
             </p>
             <p className="mb-3">Segunda à sexta 08:00h às 19:00h</p>
@@ -39,8 +39,9 @@ export function Footer() {
           <div>
             <h3 className="text-2xl font-semibold mb-2">Contatos</h3>
             <p>Email: vetmaisudi@gmail.com</p>
-            <p>Telefone: (34) 9 9631-0107</p>
-            <p>Rua Rafael Marino Neto, Jardim Karaíba, 725 - Uberlândia | MG</p>
+            <p>Fixo: (34) 3234-4952</p>
+            <p>Celular: (34) 9 9631-0107</p>
+            <p>Avenida Oscarina Cunha Chaves, 343 - Patrimônio - Uberlândia | MG</p>
             <p className="border-t border-white/20 pt-4"> R.T. M.V. Aline Vieira Fernandes Ferreira - CRMV 23171/MG</p>
             <p className="pt-2">Sthefany Lara Sousa - CRMV 23257/MG </p>
           </div>
@@ -48,7 +49,7 @@ export function Footer() {
           <div>
             <h3 className="text-2xl font-semibold mb-2">Redes sociais</h3>
             <div className="flex gap-4">
-              <a href="https://www.instagram.com/vetmaisudi/" target="_blank">
+              <a href="https://www.instagram.com/lumineclinicavet/" target="_blank">
                 <InstagramLogo className="w-8 h-8" />
               </a>
               <a

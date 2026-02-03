@@ -42,7 +42,7 @@ export function Team() {
   }
 
   return (
-    <section className="bg-white py-8 h-full ">
+    <section className="bg-[#FDF6EC] py-8 h-full ">
       <div className="container mx-auto px-4 tex-">
         <h2
           className="text-3xl md:text-4xl font-bold text-center mt-20 mb-8"
@@ -62,7 +62,7 @@ export function Team() {
                   key={index}
                   className="flex-[0_0_100%] md:h-96 min-w-0 px-3"
                 >
-                  <article className="bg-[#90d698] text-white rounded-2xl h-full flex flex-col md:flex-row gap-7 p-6 md:h-72  text-center">
+                  <article className="bg-[#003D4C] text-white rounded-2xl h-full flex flex-col md:flex-row gap-7 p-6 md:h-72  text-center">
                     <div className="h-48 w-48 md:h-50 md:w-40 md:h-full rounded-2xl flex justify-center items-center mx-auto md:mx-0">
                       <Image
                         src={item.image}
@@ -78,19 +78,19 @@ export function Team() {
 
                       <ul className="space-y-2 mt-4">
                         <li className="flex items-center gap-2 justify-center md:justify-start">
-                          <Check className="text-[#33833a]" />
+                          <Check className="text-[#ff6600]" />
                           {item.tech1}
                         </li>
                         <li className="flex items-center gap-2 justify-center md:justify-start">
-                          <Check className="text-[#33833a]" />
+                          <Check className="text-[#ff6600]" />
                           {item.tech2}
                         </li>
                         <li className="flex items-center gap-2 justify-center md:justify-start">
-                          <Check className="text-[#33833a]" />
+                          <Check className="text-[#ff6600]" />
                           {item.tech3}
                         </li>
                         <li className="flex items-center gap-2 justify-center md:justify-start">
-                          <Check className="text-[#33833a]" />
+                          <Check className="text-[#ff6600]" />
                           {item.tech4}
                         </li>
                       </ul>
