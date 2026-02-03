@@ -39,7 +39,7 @@ export function About() {
               SOBRE NÓS
             </h2>
             <p data-aos="fade-right">
-              Na Vet+, nosso compromisso é com a saúde e o bem-estar do seu pet.
+              Na Lúmine, nosso compromisso é com a saúde e o bem-estar do seu pet.
               Contamos com uma equipe de médicos veterinários qualificados e uma
               estrutura moderna para oferecer assistência de qualidade, desde
               consultas de rotina até internações 24h. Nosso objetivo é
@@ -48,15 +48,15 @@ export function About() {
             </p>
             <ul className="space-y-4">
               <li className="flex items-center gap-2" data-aos="fade-right">
-                <Check className="text-[##003d4c]" />
+                <Check className="text-[#33833a]" />
                 Atendimento humanizado e personalizado.
               </li>
               <li className="flex items-center gap-2" data-aos="fade-left">
-                <Check className="text-[##003d4c]" />
+                <Check className="text-[#33833a]" />
                 Uso de tecnologia e inovação para diagnósticos e tratamentos.
               </li>
               <li className="flex items-center gap-2" data-aos="fade-right">
-                <Check className="text-[##003d4c]" />
+                <Check className="text-[#33833a]" />
                 Ambiente seguro e acolhedor para os pets e seus tutores.
               </li>
             </ul>
