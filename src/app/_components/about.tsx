@@ -13,10 +13,10 @@ export function About() {
             <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
               <Image
                 src={about1Img}
-                alt="Foto de cachorro"
+                alt="Foto Fachada da clínica"
                 fill
                 quality={100}
-                className="object-cover hover:scale-110 duration-300"
+                className="object-cover hover:scale-110 duration-1000"
                 priority
               />
             </div>

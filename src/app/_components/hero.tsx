@@ -45,7 +45,7 @@ export function Hero() {
             <div className="grid grid-cols-1 gap-4 w-full max-w-sm">
               <a
                 data-aos="fade-up"
-                href="tel:+5534996472326"
+                /*href="tel:+5534996472326"*/
                 target="_blank"
                 className="bg-white text-blue-900 border-black px-6 py-3 rounded-xl font-semibold flex items-center justify-center gap-3 shadow-md hover:bg-blue-100 hover:scale-[1.02] transition-all duration-300"
               >
