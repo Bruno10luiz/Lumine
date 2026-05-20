@@ -19,7 +19,7 @@ export function Address() {
         Horário de atendimento
       </h1>
       <p className="pb-5" data-aos="fade-left">
-        Estamos abertos todos os dias da semana, inclusive feriados.
+        Estamos abertos todos os dias da semana, inclusive feriados
       </p>
       <p className="pb-5" data-aos="fade-left">
         das 08h às 20h

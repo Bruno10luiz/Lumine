@@ -24,8 +24,8 @@ export function Footer() {
             <p className="mb-4 font-bold">  
               Cuidando do seu melhor amigo com amor e dedicação.
             </p>
-            <p className="mb-3">Segunda à sexta 08:00h às 19:00h</p>
-            <p className="mb-3">Sábado 08:00 às 12:00h</p>
+            <p className="mb-3">Estamos abertos todos os dias da semana, inclusive feriados</p>
+            <p className="mb-3">das 08h às 20h</p>
 
             <a
               href="https://wa.me/5534996310107?text=Olá, vim pelo site e gostaria de mais informações."
