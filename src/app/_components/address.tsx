@@ -19,10 +19,10 @@ export function Address() {
         Horário de atendimento
       </h1>
       <p className="pb-5" data-aos="fade-left">
-        Segunda à sexta 08:00h às 19:00h
+        Estamos abertos todos os dias da semana, inclusive feriados.
       </p>
       <p className="pb-5" data-aos="fade-left">
-        Sábado 08:00 às 12:00h
+        das 08h às 20h
       </p>
     </div>
   );
